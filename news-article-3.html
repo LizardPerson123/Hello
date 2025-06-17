@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bezos Pesos</title>
+  <title>Bezos Pesos Web Launches</title>
   <script>
     
 
@@ -42,7 +42,7 @@
     }
 
     p, a {
-      font-size: 2em;
+      font-size: 1.5em;
     }
 
     a {
@@ -62,27 +62,24 @@
       align-content: space-between;
       justify-content: center;
     }
-    
   </style>
 </head>
 <body id="website">
-  <div>
-    <h1 class="text">Bezos Pesos Web</h1>
-    <p style="color: gray">Bezos Pesos Web: Bezos Pesos, And More</p>
-    <p class="text" style="font-size: 1.7em;">Click One Of The Links Below</p>
-    <a href="javascript:f()" id="mode">Enable Dark Mode</a>
-    <a href="news.html">Bezos Pesos News</a>
-    <a href="game.html">The Bezos Pesos Game</a>
-    <a href="news-article-1.html">About Bezos Pesos Web</a>
-    <a href="news-article-2.html">About Bezos Pesos 2</a>
-    <a href="news-article-3.html">About The Bezos Pesos Game</a>
+  <div >
+    <h1 class="text">The Bezos Pesos Game</h1>
+    <p class="text" style="margin-bottom: 2em;">By: Dylan Erck</p>
+    <p class="text">Were Excited To Announce The Bezos Pesos Game</p>
+    <p class="text">The Bezos Pesos Game Is A Game Where You Earn Bezos Bucks By Playing Mini-games</p>
+    <p class="text">More Info Will Be Announced As The Game Is Developed</p>
+    <a style="margin-top: 2em;" href="news.html">Return To News</a>
+    <a href="index.html">Return To Homepage</a>
   </div>
   <script>
-     if (document.cookie.split(";")[0] == "mode=white") {
-        enableLightMode()
+     if (document.cookie.split(";")[0] == "mode=dark") {
+        enableDarkMode()
       }
       else {
-        enableDarkMode()
+        enableLightMode()
       }
   </script>
 </body>
